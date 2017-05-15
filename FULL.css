@@ -86,6 +86,37 @@ line-height:normal !important;
 [cellspacing="0"] {
 line-height:17px;
 }
+#copyright {
+background-color:rgba(180, 32, 48, 0.6);
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+border-top-left-radius:3px;
+border-top-right-radius:3px;
+color:#EEEEEE;
+line-height:17px;
+margin-top:10px;
+padding:8px;
+text-align:center;
+}
+#copyright::after {
+}
+.hide {
+background-color:rgba(248, 162, 200, 0.701961);
+background-position:50% 50%;
+background-repeat:no-repeat no-repeat;
+background-size:cover;
+border:1px solid #FFFFFF;
+border-bottom-left-radius:7px;
+border-bottom-right-radius:7px;
+border-top-left-radius:7px;
+border-top-right-radius:0;
+display:inline-block !important;
+height:55px;
+margin-left:33px;
+margin-top:-65px;
+position:absolute;
+width:35px;
+}
 
 /*
 CATEGORY MENU BUTTONS TRANSITION SPEED
