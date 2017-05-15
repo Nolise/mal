@@ -99,49 +99,56 @@ padding: 8px 0 0 !important;
 #mal_cs_powered:hover a {
 opacity: 1;
 }
+
 #mal_cs_powered a img {
--moz-transition: all 0.4s ease 0s;
--webkit-transition: all 0.4s ease 0s;
--o-transition: all 0.4s ease 0s;
-transition: all 0.4s ease 0s;
-    background: url("http://i.imgur.com/fGTjBC3.png") no-repeat scroll 50% 6px rgba(64, 60, 90, 0.6);
-    border-radius: 3px 3px 3px 3px;
-    display: block;
-    height: 0;
-    margin: 0 12px;
-    padding: 23px 0 0 126px;
-    width: 0;
+-moz-transition: all 0.25s ease-in-out 0s;
+-webkit-transition: all 0.25s ease-in-out 0s;
+-o-transition: all 0.25s ease-in-out 0s;
+transition: all 0.25s ease-in-out 0s;
+background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(130, 130, 130, 0.6);
+border-radius: 3px 3px 3px 3px
+display: block;
+height: 0;
+margin: 0 12px;
+padding: 23px 0 0 126px;
+width: 0;
 }
+
 #mal_cs_powered a img:hover {
-    background-color: #403C5A;
+background-color: rgba(100,100,100,1);
 }
+
 #mal_cs_powered #search {
-    border-radius: 0 0 3px 3px;
-    padding: 8px !important;
-    position: relative;
+border-radius: 0 0 3px 3px;
+padding: 8px !important;
+position: relative;
 }
+
 #searchBox {
-    -moz-box-sizing: border-box;
-    border-color: #BCBCBC #D6D6D6 #D6D6D6;
-    border-radius: 2px 2px 2px 2px;
-    border-style: solid;
-    border-width: 1px;
-    color: #333333;
-    display: inline-block;
-    font-family: arial,sans-serif;
-    font-size: 13px;
-    height: 28px;
-    padding-left: 6px !important;
-    padding-right: 24px !important;
-    vertical-align: top;
-    width: 100px;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+border-color: #BCBCBC #D6D6D6 #D6D6D6;
+border-radius: 2px 2px 2px 2px;
+border-style: solid;
+border-width: 1px;
+color: #333333;
+display: inline-block;
+font-family: arial,sans-serif;
+font-size: 13px;
+height: 28px;
+padding-left: 6px !important;
+padding-right: 24px !important;
+vertical-align: top;
+width: 100px;
 }
+
 #searchBox:hover, #searchBox:focus {
-    border-color: #ACACAC #C6C6C6 #C6C6C6;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+border-color: #ACACAC #C6C6C6 #C6C6C6;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
+
 #searchListButton {
-    background: url("http://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0 transparent !important;
+background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0searchbutton.png") no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
@@ -151,6 +158,8 @@ transition: all 0.4s ease 0s;
     top: 14px !important;
     width: 0;
 }
+
+
 #mal_cs_listinfo {
     background-image: url("http://i.imgur.com/UXZxrWI.png");
     right: 172px;
@@ -201,9 +210,6 @@ width: 95px !important;
 }
 
 }
-
-
-
 
 
 
