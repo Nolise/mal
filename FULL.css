@@ -324,7 +324,9 @@ border: white 0px solid;
 border-radius: 0px 11px 11px 0px;
 position: fixed;
 }
-
+  .header_title {
+  display: none;
+}
 .header_cw {
 background-image:url(http://i.imgur.com/1RO5d8o.png);
 height: 95px;
@@ -345,7 +347,9 @@ background-color: transparent;
 background-repeat: no-repeat;
 background-position: center;
 position:relative;
-  display: none
+}
+  .header_title {
+  display: none;
 }
 
 .header_onhold {
