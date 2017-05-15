@@ -1,6 +1,6 @@
 @import "https://cdn.rawgit.com/Nolise/mal/59c5f819/covers.css";
-@import url(https://cdn.rawgit.com/Nolise/mal/39db7186/covers.css);
-@import "https://cdn.rawgit.com/Nolise/mal/1cbe3b0b/topbar.css";
+@import url(https://malcat-gen.appspot.com/series?preset=more);
+@import "https://malcat-gen.appspot.com/series?preset=more";
 body {
 background-attachment:fixed;
 background-clip:border-box;
