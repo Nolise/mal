@@ -328,6 +328,7 @@ position: fixed;
 .header_cw {
 background-image:url(http://i.imgur.com/1RO5d8o.png);
 height: 95px;
+  margin-top: 20px;
 margin-bottom: 20px;
 background-color: transparent;
 background-repeat: no-repeat;
@@ -338,6 +339,7 @@ position:relative;
 .header_completed {
 background-image:url(http://i.imgur.com/AbeXAST.png);
 height: 95px;
+  margin-top: 20px;
 margin-bottom: 20px;
 background-color: transparent;
 background-repeat: no-repeat;
@@ -348,6 +350,7 @@ position:relative;
 .header_onhold {
 background-image:url(http://i.imgur.com/lpTJE5S.png);
 height: 95px;
+  margin-top: 20px;
 margin-bottom: 20px;
 background-color: transparent;
 background-repeat: no-repeat;
@@ -358,6 +361,7 @@ position:relative;
 .header_dropped {
 background-image:url(http://i.imgur.com/mSSeCHw.png);
 height: 95px;
+  margin-top: 20px;
 margin-bottom: 20px;
 background-color: transparent;
 background-repeat: no-repeat;
@@ -368,6 +372,7 @@ position:relative;
 .header_ptw {
 background-image:url(http://i.imgur.com/Sl7lnv1.png);
 height: 95px;
+margin-top: 20px;
 margin-bottom: 20px;
 background-color: transparent;
 background-repeat: no-repeat;
