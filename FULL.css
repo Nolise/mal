@@ -114,7 +114,7 @@ text-align:center;
 }
 #grands-totals::after {
 }
-#category_totals {
+.category_totals {
 background-color:rgba(21, 36, 181, 0.6);
 border-bottom-left-radius:3px;
 border-bottom-right-radius:3px;
@@ -125,8 +125,6 @@ line-height:17px;
 margin-top:10px;
 padding:8px;
 text-align:center;
-}
-#category_totals::after {
 }
 .hide {
 background-color:rgba(248, 162, 200, 0.701961);
