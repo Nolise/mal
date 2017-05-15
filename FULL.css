@@ -25,6 +25,7 @@ z-index:-1 !important;
 #list_surround {
 background-attachment:scroll;
 background-color:transparent;
+background-image:url(http://i48.tinypic.com/23r0fhg.png);
 background-position:40px -10px;
 background-repeat:no-repeat no-repeat;
 font-size:87%;
@@ -63,6 +64,30 @@ border-bottom-right-radius:0;
 border-top-left-radius:0;
 border-top-right-radius:6px;
 }
+.td1 {
+background-color:rgba(70, 70, 70, 0.498039);
+height:65px;
+}
+.td2 {
+background-color:rgba(50, 50, 50, 0.498039);
+height:65px;
+}
+.table_header, .td1, .td2, .status_selected, .status_not_selected, .category_totals {
+border:0 none;
+padding:4px;
+text-align:center;
+vertical-align:top;
+}
+.table_header, .td1, .td2, .category_totals {
+color:white;
+}
+.borderRBL {
+line-height:normal !important;
+}
+[cellspacing="0"] {
+line-height:17px;
+}
+
 /*
 CATEGORY MENU BUTTONS TRANSITION SPEED
 By default, set to .25th of a second (a 1/4 of a second transition).
