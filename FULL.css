@@ -298,57 +298,55 @@ border: white 0px solid;
 border-radius: 0px 11px 11px 0px;
 position: fixed;
 }
-.status_selected a, .status_not_selected a, .status_selected:hover a, .status_not_selected:hover a {
-color:transparent;
-display:block;
-font-size:0;
-height:80px;
-width:350px;
-}
+
 .header_cw {
-background-color:transparent;
-background-image:url(http://i47.tinypic.com/25f4r51.png);
-background-position:0 -94px;
-background-repeat:no-repeat no-repeat;
-height:50px;
-margin-bottom:0;
-margin-top:-120px;
+background-image:url(http://i.imgur.com/1RO5d8o.png);
+height: 95px;
+margin-bottom: -40px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-position: center;
+position:relative;
 }
+
 .header_completed {
-background-color:transparent;
-background-image:url(http://i50.tinypic.com/2hmqc1t.png);
-background-position:0 -95px;
-background-repeat:no-repeat no-repeat;
-height:50px;
-margin-bottom:0;
-margin-top:-120px;
+background-image:url(http://i.imgur.com/AbeXAST.png);
+height: 95px;
+margin-bottom: -40px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-position: center;
+position:relative;
 }
+
 .header_onhold {
-background-color:transparent;
-background-image:url(http://i50.tinypic.com/34xs3es.png);
-background-position:0 -85px;
-background-repeat:no-repeat no-repeat;
-height:50px;
-margin-bottom:0;
-margin-top:-120px;
+background-image:url(http://i.imgur.com/lpTJE5S.png);
+height: 95px;
+margin-bottom: -40px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-position: center;
+position:relative;
 }
+
 .header_dropped {
-background-color:transparent;
-background-image:url(http://i45.tinypic.com/33fdlll.png);
-background-position:0 -95px;
-background-repeat:no-repeat no-repeat;
-height:50px;
-margin-bottom:0;
-margin-top:-120px;
+background-image:url(http://i.imgur.com/mSSeCHw.png);
+height: 95px;
+margin-bottom: -40px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-position: center;
+position:relative;
 }
+
 .header_ptw {
-background-color:transparent;
-background-image:url(http://i45.tinypic.com/15zqb6w.png);
-background-position:0 -85px;
-background-repeat:no-repeat no-repeat;
-height:50px;
-margin-bottom:0;
-margin-top:-120px;
+background-image:url(http://i.imgur.com/Sl7lnv1.png);
+height: 95px;
+margin-bottom: -40px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-position: center;
+position:relative;
 }
 .status_selected {
 display:block;
