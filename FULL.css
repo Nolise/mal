@@ -41,8 +41,8 @@ color:#FFFFFF;
 text-decoration:none;
 text-shadow:none;
 }
-td {
-  text-align:left
+a:td {
+  text-align: left
 }
 a:hover {
 text-decoration:underline;
