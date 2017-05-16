@@ -42,6 +42,9 @@ text-decoration:none;
 text-shadow:none;
 text-align:left
 }
+.td1 {
+  display: none;
+}
 a:hover {
 text-decoration:underline;
 }
