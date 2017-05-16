@@ -41,7 +41,7 @@ color:#FFFFFF;
 text-decoration:none;
 text-shadow:none;
 }
-a:td {
+element.style {
   text-align: left
 }
 a:hover {
