@@ -152,7 +152,7 @@ background: url("http://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0 transpare
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
-    padding: 16px 15px 0 19px !important;
+    padding: 16px 20px 0 19px !important;
     position: absolute;
     right: 8px !important;
     top: 14px !important;
@@ -162,14 +162,14 @@ background: url("http://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0 transpare
 
 #mal_cs_listinfo {
     background-image: url("http://i.imgur.com/UXZxrWI.png");
-    right: 140px;
+    right: 130px;
 }
 #mal_cs_listinfo:hover {
     background-image: url("http://i.imgur.com/VcVVnod.png");
 }
 #mal_cs_links {
     background-image: url("http://i.imgur.com/LpXWTzt.png");
-    right: 100px !important;
+    right: 90px !important;
     z-index: 9;
 }
 #mal_cs_links:hover {
@@ -177,7 +177,7 @@ background: url("http://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0 transpare
 }
 #mal_cs_otherlinks {
     background-image: url("http://i.imgur.com/ogmX9qC.png");
-    right: 500px !important;
+    right: 50px !important;
     z-index: 8;
 }
 #mal_cs_otherlinks:hover {
