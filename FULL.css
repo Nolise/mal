@@ -87,7 +87,7 @@ line-height:normal !important;
 line-height:17px;
 }
 #copyright {
-background-color:rgba(180, 32, 48, 0.6);
+background-color:rgba(0, 0, 0, 0.6);
 border-bottom-left-radius:3px;
 border-bottom-right-radius:3px;
 border-top-left-radius:3px;
@@ -115,7 +115,7 @@ text-align:center;
 #grands-totals::after {
 }
 .category_totals {
-background-color:rgba(21, 36, 181, 0.6);
+background-color:rgba(0, 0, 0, 0.6);
 border-bottom-left-radius:3px;
 border-bottom-right-radius:3px;
 border-top-left-radius:3px;
