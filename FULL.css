@@ -45,73 +45,41 @@ a:hover {
 text-decoration:underline;
 }
 .td1
-{
-
-color: none;
-border-width: 0px 1px 1px 0px;
-border-style: solid;
-border-color: #A8A8A8;
-padding: 3px;	/* Wysokosc w tabeli */
-background-color: #F0F0F0 ;
-filter: alpha(opacity=80);
--moz-opacity: 0.5; 
-opacity: 0.8; /* przezroczystosc tla - transparent */
+.table_header {
+background-color:rgba(15, 15, 15, 0.498039);
 }
-
-/*
-// Alternating row color 2	-	Tabela parzyste
-*/
-
-.td2
-{
-
-color: #505050;
-border-width: 0px 1px 1px 0px;
-border-style: solid;
-border-color: #A8A8A8;
-padding: 3px;	/* Wysokosc w tabeli */
-background-color: #F0F0F0;
-filter: alpha(opacity=70);
--moz-opacity: 0.5; 
-opacity: 0.7;	/* przezroczystosc tla - transparent */
+.table_header:first-of-type {
+border-bottom-left-radius:0;
+border-bottom-right-radius:0;
+border-top-left-radius:6px;
+border-top-right-radius:0;
 }
-
-/*
-// This represents the "Anime Title", "Score", "# Eps" columns	-	Nagluwek tabel
-*/
-
-.table_header
-{
-
-color: none;
-border-width: 1px 1px 1px 0px;
-border-style: solid;
-border-color: #A8A8A8;
-background-color: #F0F0F0;
-padding: 3px;
-text-shadow: 1px 1px 0 #E8E8E8 ;
-filter: alpha(opacity=50);
--moz-opacity: 0.5; 
-opacity: 1;	/* przezroczystosc tla - transparent */
+.table_header:nth-of-type(2) {
+padding-left:35px;
+text-align:left;
 }
-
-/*
-// headerLink represents the color of the links inside the_header	-	Linki w tabelach
-*/
-
-.table_headerLink
-{
-color: #505050 ;
+.table_header:last-of-type {
+border-bottom-left-radius:0;
+border-bottom-right-radius:0;
+border-top-left-radius:0;
+border-top-right-radius:6px;
 }
-
-.table_headerLink:Visited
-{
-color: #505050 ;
+.td1 {
+background-color:rgba(70, 70, 70, 0.498039);
+height:65px;
 }
-
-.table_headerLink:Hover
-{
-color: #FFCC00 ;
+.td2 {
+background-color:rgba(50, 50, 50, 0.498039);
+height:65px;
+}
+.table_header, .td1, .td2, .status_selected, .status_not_selected, .category_totals {
+border:0 none;
+padding:4px;
+text-align:center;
+vertical-align:top;
+}
+.table_header, .td1, .td2, .category_totals {
+color:white;
 }
 .borderRBL {
 line-height:normal !important;
