@@ -41,7 +41,7 @@ color:#FFFFFF;
 text-decoration:none;
 text-shadow:none;
 }
-element.style {
+a.link, a:visited {
   text-align: left
 }
 a:hover {
