@@ -40,10 +40,9 @@ a {
 color:#FFFFFF;
 text-decoration:none;
 text-shadow:none;
-text-align:left
 }
-.td1 {
-  display: none;
+td {
+  text-align:left
 }
 a:hover {
 text-decoration:underline;
