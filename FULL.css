@@ -1,11 +1,10 @@
-@import "https://cdn.rawgit.com/Nolise/mal/4f95956d/FULL.css";
-@import url(https://malcat-gen.appspot.com/series?preset=more);
-@import "https://cdn.rawgit.com/Nolise/mal/4f95956d/topbar.css";
+@import url(https://googledrive.com/host/0BxjwQr0BBXs-aDYxM2JlaFM2bnM);
+@import "https://dl.dropbox.com/s/6ruszt29qyk3yzi/SakorasouTopBar.css";
 body {
 background-attachment:fixed;
 background-clip:border-box;
 background-color:transparent;
-background-image:url(https://cdn.rawgit.com/Nolise/mal/30e91dbe/2674254.jpg?raw=true);
+background-image:url(http://i45.tinypic.com/3492ikw.jpg);
 background-position:0 50%, 0 0;
 background-repeat:no-repeat no-repeat;
 background-size:cover;
@@ -13,28 +12,29 @@ font-family:calibri;
 }
 #inlineContent {
 display:inline-block !important;
-height:1200px !important;
+height:1080px !important;
 left:0 !important;
 margin:auto !important;
 position:fixed !important;
 right:0 !important;
 top:0 !important;
-width:1200px !important;
+width:1920px !important;
 z-index:-1 !important;
 }
 #list_surround {
 background-attachment:scroll;
 background-color:transparent;
-background-position:40px -10px;
+background-image:url(http://i49.tinypic.com/5ebckl.png);
+background-position:30px -40px;
 background-repeat:no-repeat no-repeat;
-font-size:87%;
+font-size:100%;
 line-height:1;
 margin:0 auto;
-padding-bottom:60px;
-padding-top:290px;
+padding-bottom:10px;
+padding-top:320px;
 position:absolute;
-right:240px !important;
-width:800px;
+right:-4px !important;
+width:700px;
 }
 a {
 color:#FFFFFF;
@@ -42,6 +42,7 @@ text-decoration:none;
 text-shadow:none;
 }
 a:hover {
+color:#fff;
 text-decoration:underline;
 }
 .table_header {
@@ -86,6 +87,50 @@ line-height:normal !important;
 [cellspacing="0"] {
 line-height:17px;
 }
+.category_totals {
+background-color:rgba(255, 255, 255, 0.4);
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;
+border-top-left-radius:0;
+border-top-right-radius:0;
+color:white;
+text-align:center;
+}
+[class^="header_"] * {
+background-repeat:no-repeat no-repeat;
+font-size:0;
+height:200px;
+line-height:24px;
+padding-bottom:4px;
+text-align:right;
+vertical-align:bottom;
+}
+.header_title {
+border-bottom-left-radius:4px;
+border-bottom-right-radius:4px;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+color:#FFFFFF;
+display:inline-block;
+font-style:italic;
+height:auto;
+padding:0 8px 0 0;
+text-shadow:rgba(0, 0, 0, 0.14902) 0 1px 1px;
+}
+#grand_totals {
+background-color:transparent;
+border:0 none;
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+color:#FFFFFF;
+line-height:20px;
+min-height:20px;
+padding:8px;
+text-align:center;
+vertical-align:middle;
+}
 #copyright {
 background-color:rgba(180, 32, 48, 0.6);
 border-bottom-left-radius:3px;
@@ -100,32 +145,6 @@ text-align:center;
 }
 #copyright::after {
 }
-#grand_totals {
-background-color:rgba(21, 36, 181, 0.6);
-border-bottom-left-radius:3px;
-border-bottom-right-radius:3px;
-border-top-left-radius:3px;
-border-top-right-radius:3px;
-color:#EEEEEE;
-line-height:17px;
-margin-top:10px;
-padding:8px;
-text-align:center;
-}
-#grands-totals::after {
-}
-.category_totals {
-background-color:rgba(21, 36, 181, 0.6);
-border-bottom-left-radius:3px;
-border-bottom-right-radius:3px;
-border-top-left-radius:3px;
-border-top-right-radius:3px;
-color:#EEEEEE;
-line-height:17px;
-margin-top:10px;
-padding:8px;
-text-align:center;
-}
 .hide {
 background-color:rgba(248, 162, 200, 0.701961);
 background-position:50% 50%;
@@ -135,7 +154,7 @@ border:1px solid #FFFFFF;
 border-bottom-left-radius:7px;
 border-bottom-right-radius:7px;
 border-top-left-radius:7px;
-border-top-right-radius:0;
+border-top-right-radius:7px;
 display:inline-block !important;
 height:55px;
 margin-left:33px;
@@ -143,246 +162,154 @@ margin-top:-65px;
 position:absolute;
 width:35px;
 }
-
-/*
-CATEGORY MENU BUTTONS TRANSITION SPEED
-By default, set to .25th of a second (a 1/4 of a second transition).
-*/
-.status_not_selected a {
-transition: all 0.15s ease-in-out 0s;
+.hide:hover {
+background-color:transparent;
+background-repeat:no-repeat no-repeat;
+background-size:cover;
+border-bottom-left-radius:20px;
+border-bottom-right-radius:20px;
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+box-shadow:rgba(63, 52, 60, 0.54902) 0 0 8px 8px;
+margin-left:-130px;
+padding-right:150px;
+padding-top:220px !important;
+position:absolute;
+z-index:1;
 }
-
-
-/*
-CATEGORY MENU BUTTONS (BACKGROUNDS/POSITION)
-You can also change the position of the buttons on the page with the right/top buttons. Change right to left to start them from the left side instead.
-
-Active button images are the ones seen on their own category page or when hovering over them (pointing to it with your mouse), and inactive are the others. So on the completed page you'll see the active button's image on the completed button. On other pages, you'll see the inactive image, until you point to it. 
-*/
-
-/*
-CURRENT BUTTON (INACTIVE)
-*/
-.status_not_selected a[href*="status=1"] {
-background-image: url(http://i.imgur.com/QYequeB.png);
-top: 60px;
-left: -55px;
-opacity: .6;
+.td1:nth-of-type(2), .td2:nth-of-type(2) {
+padding-left:35px;
+text-align:left;
 }
-
-
-/*
-CURRENT BUTTON (ACTIVE, HOVER)
-*/
-.status_selected a[href*="status=1"], .status_not_selected a[href*="status=1"]:hover{
-background-image: url(http://i.imgur.com/QYequeB.png);
-top: 60px;
-left: -5px;
-opacity: .99;
+.td1:nth-of-type(6), .td2:nth-of-type(6) {
+background-attachment:scroll;
+background-color:transparent;
+background-image:none;
+background-position:0 0;
+background-repeat:repeat repeat;
+border-bottom-style:none !important;
+border-bottom-width:medium !important;
+display:inline-block;
+font-family:cursive;
+font-size:9pt;
+height:0 !important;
+left:70px;
+line-height:16px !important;
+margin-top:16px;
+position:absolute;
+text-align:justify !important;
+width:720px;
+z-index:2;
 }
-
-
-/*
-COMPLETED (INACTIVE)
-*/
-.status_not_selected a[href*="status=2"] {
-background-image: url(http://i.imgur.com/ZejCgff.png);
-top: 150px;
-left: -55px;
-opacity: .6;
+.table_header:nth-of-type(6) {
+display:none;
 }
-
-/*
-COMPLETED (ACTIVE, HOVER)
-*/
-.status_selected a[href*="status=2"], .status_not_selected a[href*="status=2"]:hover {
-background-image: url(http://i.imgur.com/ZejCgff.png);
-top: 150px;
-left: -5px;
-opacity: .99;
+span[id*="tagRow"] {
+display:block !important;
 }
-
-/*
-ON-HOLD (INACTIVE)
-*/
-.status_not_selected a[href*="status=3"] {
-background-image: url(http://i.imgur.com/Rl0jYj7.png);
-top: 240px;
-left: -55px;
-opacity: .6;
+span[id*="tagLinks"] {
+display:none !important;
 }
-
-/*
-ON-HOLD (ACTIVE, HOVER)
-*/
-.status_selected a[href*="status=3"], .status_not_selected a[href*="status=3"]:hover {
-background-image: url(http://i.imgur.com/Rl0jYj7.png);
-top: 240px;
-left: -5px;
-opacity: .99;
+a, .td1, .td2, .category_totals {
+-webkit-transition:all 0.25s ease-in-out 0s;
+transition:all 0.25s ease-in-out 0s;
 }
-
-/*
-DROPPED (INACTIVE)
-*/
-.status_not_selected a[href*="status=4"] {
-background-image: url(http://i.imgur.com/uxxyVO6.png);
-top: 330px;
-left: -55px;
-opacity: .6;
+#list_surround .status_selected, #list_surround .status_not_selected {
+-webkit-background-clip:padding-box !important;
+background-clip:padding-box !important;
+background-color:transparent;
+background-image:url(http://i48.tinypic.com/oa7wao.png);
+background-position:0 0;
+background-repeat:no-repeat no-repeat;
+background-size:contain;
+border:1px solid transparent;
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+display:block;
+left:-300px;
+padding:0;
+position:absolute;
+top:20px;
+width:263px;
 }
-
-/*
-DROPPED (ACTIVE, HOVER)
-*/
-.status_selected a[href*="status=4"], .status_not_selected a[href*="status=4"]:hover {
-background-image: url(http://i.imgur.com/uxxyVO6.png);
-top: 330px;
-left: -5px;
-opacity: .99;
+#list_surround .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected {
+background-image:url(http://i48.tinypic.com/qmx5qg.png);
+background-position:100% 0;
+top:140px;
 }
-
-/*
-PLANNED (INACTIVE)
-*/
-.status_not_selected a[href*="status=6"] {
-background-image: url(http://i.imgur.com/kFrr0Pt.png);
-top: 420px;
-left: -55px;
-opacity: .6;
+#list_surround .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected {
+background-image:url(http://i46.tinypic.com/2h4iceo.png);
+background-position:0 0;
+top:260px;
 }
-
-/*
-PLANNED (ACTIVE, HOVER)
-*/
-.status_selected a[href*="status=6"], .status_not_selected a[href*="status=6"]:hover {
-background-image: url(http://i.imgur.com/kFrr0Pt.png);
-top: 420px;
-left: -5px;
-opacity: .99;
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+background-image:url(http://i50.tinypic.com/350t4x1.png);
+background-position:100% 0;
+top:380px;
 }
-
-/*
-ALL ANIME (INACTIVE)
-*/
-.status_not_selected a[href*="status=7"] {
-background-image: url(http://i.imgur.com/zzGkXlj.png);
-top: 510px;
-left: -55px;
-opacity: .6;
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+background-image:url(http://i46.tinypic.com/5zdyd5.png);
+background-position:0 0;
+top:500px;
 }
-
-/*
-ALL ANIME (ACTIVE, HOVER)
-*/
-.status_selected a[href*="status=7"], .status_not_selected a[href*="status=7"]:hover {
-background-image: url(http://i.imgur.com/zzGkXlj.png);
-top: 510px;
-left: -5px;
-opacity: .99;
+#list_surround .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected + .status_not_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_selected, #list_surround .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected + .status_not_selected {
+background-image:url(http://i46.tinypic.com/wlp0zt.png);
+background-position:100% 0;
+top:620px;
 }
-
-/*
-BUTTON TEXT
-This section is disabled by default. The fonts you see on buttons by default are in the default custom images, which you change above. If you want the original text back in the buttons, change "transparent !important" below to the color you want. You can also change the font size here or add a custom font family.
-*/
-.status_selected a, .status_not_selected a {
-color: transparent !important;
-text-decoration: none !important;
-text-align: left;
-font-size: 20px;
-font-family: ;
-}
-
-/*
-OTHER CATEGORY BUTTON CODES (HEIGHT/WIDTH/COLOR)
-Control the height and width of all the buttons at once here. Change "fixed" to "absolute" to keep the buttons from scrolling down with the page. Border radius controls the button's roundness.
-*/
-.status_selected a[href*="status=1"],
-.status_selected a[href*="status=2"],
-.status_selected a[href*="status=3"],
-.status_selected a[href*="status=4"],
-.status_selected a[href*="status=6"],
-.status_selected a[href*="status=7"],
-.status_not_selected a[href*="status=1"],
-.status_not_selected a[href*="status=2"],
-.status_not_selected a[href*="status=3"],
-.status_not_selected a[href*="status=4"],
-.status_not_selected a[href*="status=6"],
-.status_not_selected a[href*="status=7"] {
-background-color: transparent;
-background-position: right top;
-background-repeat: repeat repeat;
-background-size: contain;
-display: block;
-height: 80px;
-width: 230px;
-padding-left: 6px !important;
-overflow: auto;
-padding: 0;
-border: white 0px solid;
-border-radius: 0px 11px 11px 0px;
-position: fixed;
-}
-  .header_title {
-  display: none;
+.status_selected a, .status_not_selected a, .status_selected:hover a, .status_not_selected:hover a {
+color:transparent;
+display:block;
+font-size:0;
+height:113px;
+width:263px;
 }
 .header_cw {
-background-image:url(http://i.imgur.com/1RO5d8o.png);
-height: 95px;
-  margin-top: 20px;
-margin-bottom: 20px;
-background-color: transparent;
-background-repeat: no-repeat;
-background-position: center;
-position:relative;
+background-color:transparent;
+background-image:url(http://i47.tinypic.com/1juk9s.png);
+background-position:50% 150px;
+background-repeat:no-repeat no-repeat;
+height:50px;
+margin-bottom:0;
+margin-top:-300px;
 }
-
 .header_completed {
-background-image:url(http://i.imgur.com/AbeXAST.png);
-height: 95px;
-  margin-top: 20px;
-margin-bottom: 20px;
-background-color: transparent;
-background-repeat: no-repeat;
-background-position: center;
-position:relative;
+background-color:transparent;
+background-image:url(http://i49.tinypic.com/snmjia.png);
+background-position:50% 150px;
+background-repeat:no-repeat no-repeat;
+height:100px;
+margin-bottom:0;
+margin-top:-100px;
 }
-  .header_title {
-  display: none;
-}
-
 .header_onhold {
-background-image:url(http://i.imgur.com/lpTJE5S.png);
-height: 95px;
-  margin-top: 20px;
-margin-bottom: 20px;
-background-color: transparent;
-background-repeat: no-repeat;
-background-position: center;
-position:relative;
+background-color:transparent;
+background-image:url(http://i48.tinypic.com/2n8deth.png);
+background-position:50% 150px;
+background-repeat:no-repeat no-repeat;
+height:50px;
+margin-bottom:0;
+margin-top:-100px;
 }
-
 .header_dropped {
-background-image:url(http://i.imgur.com/mSSeCHw.png);
-height: 95px;
-  margin-top: 20px;
-margin-bottom: 20px;
-background-color: transparent;
-background-repeat: no-repeat;
-background-position: center;
-position:relative;
+background-color:transparent;
+background-image:url(http://i50.tinypic.com/ehk8b7.jpg);
+background-position:50% 150px;
+background-repeat:no-repeat no-repeat;
+height:50px;
+margin-bottom:0;
+margin-top:-100px;
 }
-
 .header_ptw {
-background-image:url(http://i.imgur.com/Sl7lnv1.png);
-height: 95px;
-margin-top: 20px;
-margin-bottom: 20px;
-background-color: transparent;
-background-repeat: no-repeat;
-background-position: center;
-position:relative;
+background-color:transparent;
+background-image:url(http://i50.tinypic.com/bimm44.png);
+background-position:50% 150px;
+background-repeat:no-repeat no-repeat;
+height:75px;
+margin-bottom:0;
+margin-top:-100px;
 }
 .status_selected {
 display:block;
@@ -397,13 +324,19 @@ opacity:0.7;
 color:transparent;
 opacity:1;
 }
+#list_surround {
+left:0 !important;
+margin:auto !important;
+position:absolute !important;
+right:0 !important;
+}
+ 
+/*COLOR OF THE "AIRING EXT." TEXT*/
+.animetitle + small {
+color:#CC33FF !important;
+font-weight:bold;
+}
+ 
 * {
 -webkit-transition:all 0.25s ease-in-out;
 transition:all 0.25s ease-in-out;
-}
-.animetitle + small {
-color:#F5B800 !important;
-font-size:87%;
-font-weight:bold;
-}
-
