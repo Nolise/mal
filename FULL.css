@@ -74,7 +74,10 @@ height:65px;
 }
 .table_header, .td1, .td2, .status_selected, .status_not_selected, .category_totals {
 border:0 none;
-padding:30px;
+    padding-top: 4px;
+    padding-right: 30px;
+    padding-bottom: 4px;
+    padding-left: 4px;
 text-align:left;
 vertical-align:top;
 }
