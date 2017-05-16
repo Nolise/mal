@@ -41,9 +41,6 @@ color:#FFFFFF;
 text-decoration:none;
 text-shadow:none;
 }
-a.link, a:visited {
-  text-align: left
-}
 a:hover {
 text-decoration:underline;
 }
@@ -77,7 +74,7 @@ height:65px;
 .table_header, .td1, .td2, .status_selected, .status_not_selected, .category_totals {
 border:0 none;
 padding:4px;
-text-align:center;
+text-align:left;
 vertical-align:top;
 }
 .table_header, .td1, .td2, .category_totals {
