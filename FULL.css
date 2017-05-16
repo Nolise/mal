@@ -44,83 +44,41 @@ text-shadow:none;
 a:hover {
 text-decoration:underline;
 }
-.td1, .td2 {
-background-color:#1AC6FF;
-background-position:50% 50%;
-border-style:hidden;
-color:#0039E6;
-padding:3px;
-}
 .table_header {
-background-color:#1AC6FF;
-border-style:hidden;
-color:#001E99 !important;
-padding:3px;
+background-color:rgba(255, 255, 255, 0.4);
 }
-.td1[width="125"] {
-font-size:10px;
-padding:1px 20px 1px 1px;
-width:200px;
+.table_header:first-of-type {
+border-bottom-left-radius:0;
+border-bottom-right-radius:0;
+border-top-left-radius:10px;
+border-top-right-radius:0;
 }
-.td1[width="45"] {
-font-size:11px;
-font-weight:bold;
+.table_header:nth-of-type(2) {
+padding-left:35px;
+text-align:left;
 }
-.td1[width="70"] {
-font-size:11px;
-font-weight:bold;
+.table_header:last-of-type {
+border-bottom-left-radius:0;
+border-bottom-right-radius:0;
+border-top-left-radius:0;
+border-top-right-radius:10px;
 }
-.td2[width="125"] {
-font-size:11px;
-padding:1px 20px 1px 1px;
-width:200px;
+.td1 {
+background-color:rgba(0, 0, 0, 0.4);
+height:65px;
 }
-.td2[width="45"] {
-font-size:11px;
-font-weight:bold;
+.td2 {
+background-color:rgba(0, 0, 0, 0.4);
+height:65px;
 }
-.td2[width="70"] {
-font-size:11px;
-font-weight:bold;
-}
-.td1:last-child, .td2:last-child, .table_header:last-child {
-background-position:100% 50%;
-}
-.table_header[width="125"] {
-padding-left:1px;
-padding-right:20px;
-width:200px;
-}
-.td1:first-child, .td2:first-child, .table_header:first-child {
-background-position:0 50%;
-padding-left:10px;
+.table_header, .td1, .td2, .status_selected, .status_not_selected, .category_totals {
+border:0 none;
+padding:4px;
 text-align:center;
-width:20px;
+vertical-align:top;
 }
-[id^="menu"] .td1 {
-padding-left:50px;
-padding-right:20px;
-text-align:left;
-}
-[id^="menu"] .td2 {
-padding-left:50px;
-padding-right:20px;
-text-align:left;
-}
-small *, small {
-font-size:11px;
-}
-.table_headerLink {
-color:#0039E6;
-font-weight:normal;
-}
-.table_headerLink:visited {
-color:#000000;
-font-weight:normal;
-}
-.table_headerLink:hover {
-color:#FFFFFF;
-font-weight:normal;
+.table_header, .td1, .td2, .category_totals {
+color:white;
 }
 .borderRBL {
 line-height:normal !important;
