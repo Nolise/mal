@@ -105,7 +105,7 @@ opacity: 1;
 -webkit-transition: all 0.25s ease-in-out 0s;
 -o-transition: all 0.25s ease-in-out 0s;
 transition: all 0.25s ease-in-out 0s;
-background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0poweredaimg.png") no-repeat scroll 50% 6px rgba(130, 130, 130, 0.6);
+background: url("http://i.imgur.com/fGTjBC3.png") no-repeat scroll 50% 6px rgba(130, 130, 130, 0.6);
 border-radius: 3px 3px 3px 3px
 display: block;
 height: 0;
@@ -148,7 +148,7 @@ box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
 }
 
 #searchListButton {
-background: url("http://dl.dropbox.com/u/78340470/Icon%20Style%20Menu%20Bar/icon0searchbutton.png") no-repeat scroll 0 0 transparent !important;
+background: url("http://i.imgur.com/XqsilHp.png") no-repeat scroll 0 0 transparent !important;
     border-radius: 3px 3px 3px 3px;
     height: 0;
     margin: 0;
