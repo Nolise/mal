@@ -45,7 +45,7 @@ a:hover {
 text-decoration:underline;
 }
 .table_header {
-background-color:rgba(255, 255, 255, 0.4);
+background-color:rgba(0, 0, 0, 0.5);
 }
 .table_header:first-of-type {
 border-bottom-left-radius:0;
@@ -101,7 +101,7 @@ text-align:center;
 #copyright::after {
 }
 #grand_totals {
-background-color:rgba(21, 36, 181, 0.6);
+background-color:rgba(0, 0, 0, 0.6);
 border-bottom-left-radius:3px;
 border-bottom-right-radius:3px;
 border-top-left-radius:3px;
