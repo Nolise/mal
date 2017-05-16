@@ -44,43 +44,70 @@ text-shadow:none;
 a:hover {
 text-decoration:underline;
 }
-.td1
-.table_header {
-background-color:rgba(15, 15, 15, 0.498039);
+table_header { 
+background-color:rgb(51, 49, 50); 
+/*! border-top: 10px groove #ff809f; */
+} 
+
+.td1:nth-of-type(5), .td2:nth-of-type(5) {
+border-right: 2px solid white !important;
+color: white;
 }
-.table_header:first-of-type {
-border-bottom-left-radius:0;
-border-bottom-right-radius:0;
-border-top-left-radius:6px;
-border-top-right-radius:0;
+.td1:nth-of-type(1), .td2:nth-of-type(1) {
+border-left: 2px solid white !important;
+color: white;
 }
-.table_header:nth-of-type(2) {
-padding-left:35px;
-text-align:left;
+.table_header:nth-of-type(1), .table_header:nth-of-type(2), .table_header:nth-of-type(3), .table_header:nth-of-type(4), .table_header:nth-of-type(5) {
+border-top: 2px solid white !important;
 }
-.table_header:last-of-type {
-border-bottom-left-radius:0;
-border-bottom-right-radius:0;
-border-top-left-radius:0;
-border-top-right-radius:6px;
+.table_header:nth-of-type(1) {
+border-left: 2px solid white !important;
+color: white;
 }
-.td1 {
-background-color:rgba(70, 70, 70, 0.498039);
-height:65px;
+
+.table_header:nth-of-type(5) {
+border-bottom-right-radius: 0;
+border-right: 2px solid white;
+border-top-left-radius: 0;
+color: white;
 }
-.td2 {
-background-color:rgba(50, 50, 50, 0.498039);
-height:65px;
+
+/*ROUNDED CORNER ON TOP LEFT*/
+.table_header:first-of-type { 
+} 
+
+
+/*MOVING HEADER TITLE OVER */
+.table_header:nth-of-type(2) { 
+padding-left:35px; 
+text-align:left; 
+/*! border: 10px 5px 0px 0px groove #ff809f; */
+/*! border: ; */
+} 
+
+
+
+/*ROUNDER CORNER ON TOP RIGHT */
+.table_header:last-of-type { 
+border-bottom-left-radius:0; 
+border-bottom-right-radius:0; 
+border-top-left-radius:0; 
+border-top-right-radius:20px; 
+} 
+
+/*ROW COLORS*/
+a, .td1, .td2, .category_totals {
+transition: all 0.25s ease-in-out 0s;
 }
-.table_header, .td1, .td2, .status_selected, .status_not_selected, .category_totals {
-border:0 none;
-padding:4px;
-text-align:center;
-vertical-align:top;
-}
-.table_header, .td1, .td2, .category_totals {
-color:white;
-}
+.td1 { 
+background-color:rgb(51, 49, 50); 
+height:65px; 
+} 
+.td2 { 
+background-color:rgb(51, 49, 50); 
+height:65px; 
+} 
+
 .borderRBL {
 line-height:normal !important;
 }
